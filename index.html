@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
     <title>RPG</title>
+    <link rel="stylesheet" type="text/css" href="./src/styles/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./src/styles/style.css">
     <script src="build/index.js" type="module"></script>
 </head>
-<body>
-    <div id="test"></div>
+
+<body class="position-relative">
+    <div id="myModal" class="position-absolute top-50 start-50 translate-middle" style="display: none;">
+        <input id="myInput" type="text">
+        <button class="btn btn-primary" id="launch-game">
+            launch game
+        </button>
+    </div>
+
+
+        <button id="btn-start" class="btn btn-danger position-absolute top-0" style="display: block;">
+            Start Game
+        </button>
+    
+
+    <div class="grid-container">
+        <div class="heroside"></div>
+        <div class="monsterside"></div>
+        <div class="actionside"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
 </body>
 </html>
+
