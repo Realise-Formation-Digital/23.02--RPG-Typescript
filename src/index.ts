@@ -1,10 +1,9 @@
 import IWeapons from "./interface/Weapons";
-import getAllWeapons from "./services/weaponService";
+import {getAllWeapons} from "./services/weaponService";
 
 // const test: HTMLElement = document.getElementById('test')
 
- let res : IWeapons[] = getAllWeapons();
- console.log('Armes', res)
+
 
 const btnStartGame: HTMLElement = document.getElementById('btn-start');
 console.log('btn', btnStartGame);
