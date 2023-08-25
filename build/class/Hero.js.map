@@ -1,0 +1,1 @@
+{"version":3,"file":"Hero.js","sourceRoot":"","sources":["../../src/class/Hero.ts"],"names":[],"mappings":"AAAA,OAAO,cAAc,MAAM,kBAAkB,CAAC;AAE9C;;;;;GAKG;AACH,MAAM,IAAK,SAAQ,cAAc;IAC7B,YAAY,IAAY,EAAC,EAAU,EAAE,GAAW,EAAE,KAAa;QAC3D,KAAK,CAAC,IAAI,EAAE,EAAE,EAAE,GAAG,EAAE,KAAK,CAAC,CAAC;IAChC,CAAC;CACJ;AAED,eAAe,IAAI,CAAC"}
